@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+body {
+	font-family:'advent pro',sans-sarif;
+	padding: 0;
+	margin:0; 
+    
+}
+ul{
+	margin:0;
+    padding: 0;
+}
+li{
+	list-style-type: none;
+
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-image: url(petroleacc.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+header ul{
+	float: right;
+	list-style-type: none;
+  margin-top: 25px;
+
+}
+header ul li {
+    display: inline-block;
+    
+}
+header ul li a {
+  text-decoration : none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+
+}
+header ul li a:hover{
+  background-color: #cc9900;
+  color: #000;
+
+}
+header ul li.active a {
+  background-color: #cc9900;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+  #logo{
+  	font-family:'dancing Script',cursive;
+  	font-weight: bold;
+  	float:left;
+  }
+#title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+  }
+  #title h1{
+    color: #cc9900;
+    font-size:50px;
+  }
+  h1
+ {
+   font-family: 'gabriolat',cursive;
+   text-align: center;
+   font-size: 2em;
+   margin-top:38px;
+   text-shadow: 1px 3px 2px black;
+ }
+  #premierTrait
+{
+   height: 1px;
+   width: 25%;
+   margin:-3px auto;
+   text-shadow: 1px 3px 2px black;
+
+}
+  h3{
+     text-align: center;
+     color:antiquewhite;
+     font-size: 3em;
+     text-shadow: 1px 3px 2px black;
+  }
+     
+  #presentation{
+  	background-color: #FFFAE1;
+  	padding: 10px 0px 100px 0;
+  }
+
+  #textIntro{
+  	padding: 0px 20%;
+  }
+
+  #prestations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+    }
+  .imageprestation h4{
+  	font-family: 'dancing Script',cursive;
+  	text-align: center;
+  	font-size: 1.8em;
+  	margin: 15px;
+  	font-weight: 300;
+  }
+  .imagePrestation img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+
+}
+  .imagePrestation img:hover{
+  	 opacity: 0.5;
+  	 transform: scale(1.05);
+  	 transition: 0.8s ease-in-out;
+
+  }
+  footer
+{
+	
+	background-color: #524A3A;
+	color: #FFFAE1;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+form{
+	margin:0 auto;
+	max-width: 900px;
+
+}
+input,textarea,button{
+	border : none;
+	width: 55%;
+	padding:15px 10px;
+	margin: 1px 0;
+	font-size: 1.2em;
+	font-family:'advent pro',sans-sarif;
+	border-radius: 8px;
+}
+textarea{
+	height: 120px;
+}
+
+button{
+	font-size:1.5em;
+	background-color: #FFFAE1;
+}
+button:hover{
+	background-color: #e55039;
+	color:#FFFAE1;
+	cursor:pointer;
+	transition:0.3s ease-in-out;
+}
+#copyrightEtIcons{
+display: flex;
+margin-bottom: 20px;
+padding: 0 10%;
+
+
+}
+#copyright{
+	width: 50%;
+	text-align: left;
+	color: #FFFAE1;
+}
+#icones{
+	width: 50%;
+	text-align: right;
+
+}
+#icones a {
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 1.3em;
+	color: #FFFAE1;
+}
+#icones a:hover{
+	transform: scale(1.5);
+    transition: 0.1s;
+
+
+}
+
+
